@@ -1,146 +1,90 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import Button from '../components/Button.astro';
-import Link from '../components/Link.astro';
+
 import { Image } from 'astro:assets';
-import thumbsup from "../assets/images/thumbsup.png";
-import gradient from "../assets/images/gradient.jpg";
+
 import fontsilver from "../assets/images/fontsilver.png";
 import font from "../assets/images/font.svg";
-import lodretzivary from "../assets/images/lodretzivary.svg";
+
 import zi from "../assets/images/zi.svg";
 import va from "../assets/images/va.svg";
 import ry from "../assets/images/ry.svg";
-import bags from "../assets/images/bags.png";
+
 import poster1 from "../assets/images/poster1.png";
 import poster2 from "../assets/images/poster2.png";
 import 'animate.css';
 import "aos/dist/aos.css";
 ---
-<MainLayout title="Zivary" >
-	<div 
-	 class="border-customBlack border-t col-span-2 overflow-hidden">
-		 <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4"> 
-			<div class="inline-block animate-scroll min-w-full">
-				<span class=" text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
-					<Image src={font} alt="font" class="w-40" ></Image> 
-			
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>  
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>  
-				</span> 
-			</div> 
-		</div> 
+<MainLayout title="Zivary">
+	<div class="border-customBlack border-t col-span-2 overflow-hidden">
+	  <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4">
+		<div class="inline-block animate-scroll min-w-full">
+		  <span class="text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
+			<Image src={font} alt="font" class="w-40" />
+			<Image src={font} alt="font" class="w-40" />
+			<Image src={font} alt="font" class="w-40" />
+		  </span>
+		</div>
+	  </div>
 	</div>
-	<section class="h-[80vh] flex px-2 m-auto max-w-screen-lg ">
-		<div
-	data-aos="flip-right"
-	data-aos-delay="400"
-	 data-aos-duration="3000"
-		 class="self-center">
-			<Image src={fontsilver} alt="font" ></Image> 
-			</div>
-		
-		<!-- <Image src={gradient} alt="gradient"></Image> -->
+  
+	<section class="h-[80vh] flex px-2 m-auto max-w-screen-lg">
+	  <div data-aos="flip-right" data-aos-delay="400" data-aos-duration="3000" class="self-center">
+		<Image src={fontsilver} alt="font" />
+	  </div>
 	</section>
-	<div 
-	 class="border-customBlack border-t col-span-2 overflow-hidden">
-		 <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4"> 
-			<div class="inline-block animate-scroll min-w-full">
-				<span class=" text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>   
-				</span> 
-			</div> 
-		</div> 
+  
+	<div class="border-customBlack border-t col-span-2 overflow-hidden">
+	  <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4">
+		<div class="inline-block animate-scroll min-w-full">
+		  <span class="text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
+			<Image src={font} alt="font" class="w-40" />
+			<Image src={font} alt="font" class="w-40" />
+		  </span>
+		</div>
+	  </div>
 	</div>
+  
 	<section class="m-auto max-w-screen-lg py-24 md:grid md:grid-cols-3 px-5">
-		<div
-		data-aos="fade-right"
-	data-aos-delay="400"
-		 class="col-span-2 self-center">
-			<h1 class="montserrat-900 text-4xl md:text-6xl ">OM ZIVARY</h1>
-			<h2  class="montserrat-600-italic text-2xl pt-1 ">Displayfont, der kombinerer elegance og kant</h2>
-			<!-- <Image src={font} alt="font" class="w-60" ></Image>  -->
-			<p class="py-5 text-base md:text-lg">"Zivary" skrifttype er en dynamisk og udtryksfuld displayskrifttype karakteriseret ved dens flydende, bølgelignende konturer og skarpe, tornelignende accenter. Den kombinerer elegancen fra traditionelle serif-bogstaver med et organisk, finurligt twist, hvilket resulterer i et karakteristisk og iøjnefaldende udseende. <br> <br> De overdrevne kurver og spidse kanter giver skrifttypen en legende, men edgy æstetik, hvilket gør den perfekt til projekter, der søger at formidle kreativitet, unikhed og et strejf af dristighed. </p>
-		</div>
-		<div 
-		class="hidden  md:grid md:place-self-end gap-2">
-			<Image
-			data-aos="flip-right"
-	data-aos-delay="400" src={zi} alt="font" class="md:w-44" ></Image>  
-			<Image
-			data-aos="flip-left"
-	data-aos-delay="400"
-			 src={va} alt="font" class=" md:w-48" ></Image>   
-			<Image
-			data-aos="flip-right"
-	data-aos-delay="400"
-			 src={ry} alt="font" class="md:w-48" ></Image>    
-		</div>
+	  <div data-aos="fade-right" data-aos-delay="400" class="col-span-2 self-center">
+		<h1 class="montserrat-900 text-4xl md:text-6xl">OM ZIVARY</h1>
+		<h2 class="montserrat-600-italic text-2xl pt-1">Displayfont, der kombinerer elegance og kant</h2>
+		<p class="py-5 text-base md:text-lg">
+		  "Zivary" skrifttype er en dynamisk og udtryksfuld displayskrifttype karakteriseret ved dens flydende,
+		  bølgelignende konturer og skarpe, tornelignende accenter.
+		</p>
+	  </div>
+	  <div class="hidden md:grid md:place-self-end gap-2">
+		<Image data-aos="flip-right" data-aos-delay="400" src={zi} alt="font" class="md:w-44" />
+		<Image data-aos="flip-left" data-aos-delay="400" src={va} alt="font" class="md:w-48" />
+		<Image data-aos="flip-right" data-aos-delay="400" src={ry} alt="font" class="md:w-48" />
+	  </div>
 	</section>
-	<section class="md:grid md:grid-cols-3 gap-10 m-auto max-w-screen-lg  px-5">
-		<div class="md:order-2  md:col-span-2 self-center ">
-		<h1
-		 data-aos="fade-up"
-	data-aos-delay="300"
-		 class="  montserrat-900 text-4xl md:text-6xl uppercase ">Showcase af fonten</h1>
-  <p
-   data-aos="fade-up"
-	data-aos-delay="300" class="py-5 text-base md:text-lg"
-  >Zivary-skrifttypen er perfekt til projekter, der har brug for et modigt, kunstnerisk præg. Dens unikke blanding af flydende kurver og skarpe kanter gør den ideel til branding, plakater, emballage og grafik på sociale medier. Det er et godt valg til iøjnefaldende logoer, redaktionelt design og kreativt merchandise, der tilføjer en tydelig flair til ethvert visuelt indhold, der har til formål at skille sig ud.</p>
-
-
-		</div>
-		<div class="flex flex-col gap-5 py-5 md:py-0 md:order-1">
-			<Image
-			 data-aos="fade-right"
-	data-aos-delay="300"
-			 src={poster1} alt="font" class="md:w-52 " ></Image>   
-			<Image
-			 data-aos="fade-left"
-	data-aos-delay="300"
-			 src={poster2} alt="font" class=" md:w-52 self-end " ></Image>   
-		</div>
+  
+	<section class="md:grid md:grid-cols-3 gap-10 m-auto max-w-screen-lg px-5">
+	  <div class="md:order-2 md:col-span-2 self-center">
+		<h1 data-aos="fade-up" data-aos-delay="300" class="montserrat-900 text-4xl md:text-6xl uppercase">
+		  Showcase af fonten
+		</h1>
+		<p data-aos="fade-up" data-aos-delay="300" class="py-5 text-base md:text-lg">
+		  Zivary-skrifttypen er perfekt til projekter, der har brug for et modigt, kunstnerisk præg.
+		</p>
+	  </div>
+	  <div class="flex flex-col gap-5 py-5 md:py-0 md:order-1">
+		<Image data-aos="fade-right" data-aos-delay="300" src={poster1} alt="font" class="md:w-52" />
+		<Image data-aos="fade-left" data-aos-delay="300" src={poster2} alt="font" class="md:w-52 self-end" />
+	  </div>
 	</section>
-
-	<div 
-	 class="border-customBlack border-t col-span-2 overflow-hidden mt-32">
-		 <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4"> 
-			<div class="inline-block animate-scroll min-w-full">
-				<span class=" text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image> 
-					<Image src={font} alt="font" class="w-40" ></Image>   
-				</span> 
-			</div> 
-		</div> 
+  
+	<div class="border-customBlack border-t col-span-2 overflow-hidden mt-32">
+	  <div class="overflow-hidden whitespace-nowrap border-customBlack border-b py-2 md:py-4">
+		<div class="inline-block animate-scroll min-w-full">
+		  <span class="text-2xl md:text-2xl text-center m-0 flex flex-row gap-8">
+			<Image src={font} alt="font" class="w-40" />
+			<Image src={font} alt="font" class="w-40" />
+		  </span>
+		</div>
+	  </div>
 	</div>
-</MainLayout>
+  </MainLayout>
+  
