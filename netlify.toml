@@ -1,0 +1,12 @@
+[build]
+  publish = "build" # Mappen som skal deployes (f.eks. "build" eller "dist")
+  command = "npm run build" # Byggekommandoen for dit projekt
+  node_version = "18.20.5" # Node.js versionen (kan ændres til den ønskede)
+
+[dev]
+  framework = "react" # Ændr dette til det framework, du bruger (f.eks. next, vue, svelte)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
